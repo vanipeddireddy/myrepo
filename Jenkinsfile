@@ -23,6 +23,9 @@ pipeline {
                 		sh 'ansible-playbook task.yml'
                 	}
                 }
+{ 
+stage 2
+}
             }
         }
     }
