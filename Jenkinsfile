@@ -22,6 +22,15 @@ pipeline {
                 	script {
                 		sh 'ansible-playbook task.yml'
                 	}
+{
+stage
+}
+                }
+{ 
+stage 2
+}
+                {
+                    stage 3
                 }
             }
         }
